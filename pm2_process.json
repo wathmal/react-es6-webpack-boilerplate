@@ -1,0 +1,11 @@
+{
+  "apps" : [{
+    "script"      : "build/server.js",
+    "name": "react-es6",
+    "watch"       : false,
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": 80
+    }
+  }]
+}

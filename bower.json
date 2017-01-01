@@ -1,0 +1,22 @@
+{
+  "name": "my-react-es6-boilerplate",
+  "description": "es6 react boilerplate to bootstrap web apps",
+  "main": "build/server.js",
+  "authors": [
+    "Sasitha Sonnadara <sasithawathmal@gmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "build/public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
