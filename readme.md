@@ -1,5 +1,5 @@
 # react es6 boilerplate
-`react ES6` boilerplate with webpack with `sass`.
+`react ES6` boilerplate with webpack and `sass`.
 
 ## directory layout
 ```
