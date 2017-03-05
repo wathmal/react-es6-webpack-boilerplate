@@ -93,3 +93,4 @@ jspm_packages
 /build/public/bundle.js
 .idea/
 /list.txt
+/build/index.html
