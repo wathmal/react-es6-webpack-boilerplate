@@ -48,6 +48,7 @@ config = {
 const serverConfig={
     name: 'server',
     target: 'node',
+    devtool: 'eval-cheap-module-source-map',
     externals: [nodeExternals()],
     entry: [
         path.join(srcPath, 'server', 'server.js'),
