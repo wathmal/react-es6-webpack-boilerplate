@@ -16,7 +16,7 @@ function handleRender(req, res) {
     );
 
     //console.log(path.join(__dirname, './../client/index.html'));
-    fs.readFile(path.join(__dirname, './../src/client/index.html'), 'utf8', function (err, file) {
+    fs.readFile(path.join(__dirname, './index.html'), 'utf8', function (err, file) {
         if (err) {
             return console.log(err);
         }

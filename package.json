@@ -6,8 +6,9 @@
   "scripts": {
     "test": "",
     "build-server": "babel -d ./build ./src/server -s",
-    "start": "npm run build && node build/server.js",
-    "build": "webpack --progress"
+    "start": "npm run cp && npm run build && node build/server.js",
+    "build": "webpack --progress",
+    "cp": "cp src/server/index.html build"
   },
   "author": "",
   "license": "UNLICENSED",
