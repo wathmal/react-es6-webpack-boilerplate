@@ -12,10 +12,12 @@ const app = document.getElementById('app');
 
 // apply react router here
 ReactDOM.render(
-    <Router history={browserHistory}>
+    /*<Router history={browserHistory}>
         <Route path="/" component={App}>
             <IndexRoute component={Landing}/>
         </Route>
-    </Router>, app);
+    </Router>*/
+    <Landing />
+    , app);
 
 // ReactDOM.render(<App><Dashboard /></App>, app);

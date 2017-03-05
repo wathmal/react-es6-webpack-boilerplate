@@ -6,7 +6,8 @@
   "scripts": {
     "test": "",
     "build-server": "babel -d ./build ./src/server -s",
-    "start": "npm run build-server && node build/server.js"
+    "start": "npm run build && node build/server.js",
+    "build": "webpack --progress"
   },
   "author": "",
   "license": "UNLICENSED",
@@ -27,7 +28,8 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2",
-    "webpack-hot-middleware": "^2.13.2"
+    "webpack-hot-middleware": "^2.13.2",
+    "webpack-node-externals": "^1.5.4"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
